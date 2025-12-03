@@ -1,6 +1,10 @@
 import logging
 from typing import List, Optional, Dict
 
+"""
+Hash maps for fast lookups in data matching
+"""
+
 # Enable debug logs so logging.debug(...) messages are shown
 logging.basicConfig(
     level=logging.DEBUG,
@@ -55,4 +59,5 @@ if __name__ == "__main__":
     two_sum_obj = TwoSum(nums, target)
     result = two_sum_obj.process()
 
+    # Display the output
     print("Result:", result)
